@@ -8,7 +8,9 @@ This repository contains a Docker-based setup to run **SonarQube** with a **Post
 .
 ├── docker-compose.yaml
 ├── Readme.txt
-└── sonar-cnes-report-4.3.0.jar
+├── sonar-cnes-report-4.3.0.jar
+├── sonar-cnes-report-4.3.0.tar.gz
+└── raw-instructions.txt
 ```
 
 ---
