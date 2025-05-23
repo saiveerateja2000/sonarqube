@@ -1,0 +1,8 @@
+SonarQube Installation
+1. first install the sonarqube and postgresql using docker compose file
+2. now login to the sonarqube and check weather everything is working good or not
+3. check CNES is present under more or not
+4. if CNES report is there then the jar file here in this directory is exported properly
+5. if it is not there and u dont see the jar filein this directory then u have to download it
+6. for downloading CNES report jar file use this version ----> sonar-cnes-report-4.3.0.jar
+7. after downloading the jar file copy it to running sonarqube container using docker cp sonar-cnes-report-4.3.0.jar sonarqube:/opt/sonarqube/extensions/plugins/
