@@ -34,7 +34,7 @@ This guide walks you through integrating **SonarQube** with **Jenkins** using Do
 
 4. **Create Webhook**:
 
-this is used to communicate to the jenkins to send the status of the quality gate report
+This is used to communicate to the jenkins to send the status of the quality gate report
    * Navigate to the project → `Project Settings` → `Webhooks`
    * Create a new webhook:
 
