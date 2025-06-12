@@ -39,8 +39,7 @@ This is used to communicate to the jenkins to send the status of the quality gat
    * Create a new webhook:
 
      * **Name**: `Jenkins`
-     * **URL**: `http://<jenkins-ip>:8080/sonarqube-webhook/`
-here /sonarqube-webhook/ is mandatory as it is without change.
+     * **URL**: `http://<jenkins-ip>:8080/sonarqube-webhook/` -> here /sonarqube-webhook/ is mandatory as it is without change.
 
 ---
 
