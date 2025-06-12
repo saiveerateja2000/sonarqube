@@ -14,31 +14,6 @@ This guide walks you through integrating **SonarQube** with **Jenkins** using Do
 
 ---
 
-## 🐳 Install SonarQube using Docker Compose
-
-```yaml
-version: '3'
-
-services:
-  sonarqube:
-    image: sonarqube:latest
-    ports:
-      - "9000:9000"
-    environment:
-      - SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true
-    volumes:
-      - sonarqube_data:/opt/sonarqube/data
-      - sonarqube_extensions:/opt/sonarqube/extensions
-
-volumes:
-  sonarqube_data:
-  sonarqube_extensions:
-```
-
-> Access SonarQube at: `http://localhost:9000`
-
----
-
 ## ⚙️ SonarQube Configuration
 
 1. **Create Project**:
